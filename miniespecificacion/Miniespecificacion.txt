@@ -4,11 +4,12 @@ Miniespecificación:
 2. funcion principal()
 3. 	opcion, x(10)[{A-Z}{a-z}]
 4. 	bandera, l <- True
-5. 	var, i[0-n] <- 0
+5. 	var, i[0-n]
 6. 	serie, x(199)[{A-Z},{a-z}] <--""
-7. 	contador, i[0-n] <- 0
+7. 	contador, i[0-n] <--0
 8. 	Mientras (bandera) entonces
-9. 		<<"Ingrese + "\n" + 1 para cuenta en Facebook" + "\n" + 2 para Twitter + + "\n" + 3 para WhatsApp + 10.               "\n" + 4 para telegram + "\n" + 5 para Signal + "\n" + 6 para Instagram + "\n" + 7 para Flickr"
+9. 		<<"Ingrese + "\n" + 1 para cuenta en Facebook" + "\n" + 2 para Twitter + + "\n" + 3 para WhatsApp + 
+10.               "\n" + 4 para telegram + "\n" + 5 para Signal + "\n" + 6 para Instagram + "\n" + 7 para Flickr"
 11. 		>>var
 12. 		Si var == 1 entonces
 13.			opcionFacebook()
@@ -40,14 +41,12 @@ Miniespecificación:
 39. 				Fin Si
 40. 			Fin Si
 41. 		Fin Si
-
 42.		contador <- contador + 1	
 43.		<<"Ingrese (si) para Salir"
 44.		>> opcion
 45.		Si opcion == "si" entonces
 46.			bandera <- False
 47.		Fin Si
-
 48.	Fin Mientras
 49.	<<"Se han creado un total de " + contador + " cuentas"
 50.	serie <- obtenerResultadoFinal(contador)
