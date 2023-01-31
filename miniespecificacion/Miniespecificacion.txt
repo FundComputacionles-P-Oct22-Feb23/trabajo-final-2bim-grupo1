@@ -31,7 +31,7 @@ Miniespecificación:
 30.								Si var == 7 entonces
 31.	  								opcionFlickr()
 32.								De lo contrario
-33.									<<"Error"
+33.									<<"Error en opción seleccionada"
 34.	  								contador <- contador-1
 35.								Fin Si
 36. 							Fin Si
