@@ -1,4 +1,5 @@
 # Trabajo Final
+Cristian Espinosa-Alex Sanchez
 ## Segundo Bimestre
 
 ***
